@@ -11,9 +11,12 @@
   "author": "Andrés Matta Morales",
   "license": "MIT",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.17.2",
+    "crypto": "0.0.3",
     "express": "^4.15.3",
-    "mongoose": "^4.10.5"
+    "mongoose": "^4.10.5",
+    "mongoose-unique-validator": "^1.0.5"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
